@@ -12,11 +12,11 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/Nef10/SwiftBeanCountParserUtils.git",
-            .exact("1.0.0")
+            from: "1.0.0"
         ),
         .package(
             url: "https://github.com/Nef10/SwiftBeanCountModel.git",
-            from: "0.1.6"
+            .exact("0.1.6")
         ),
         .package(
             url: "https://github.com/yaslab/CSV.swift.git",
