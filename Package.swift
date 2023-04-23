@@ -16,7 +16,7 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/Nef10/SwiftBeanCountModel.git",
-            .exact("0.1.6")
+            from: "0.1.6"
         ),
         .package(
             url: "https://github.com/yaslab/CSV.swift.git",
