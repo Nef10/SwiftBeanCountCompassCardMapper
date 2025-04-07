@@ -7,7 +7,7 @@ import SwiftBeanCountParserUtils
 public struct SwiftBeanCountCompassCardMapper {
 
     private struct TransactionRow: Decodable {
-    
+
         private enum CodingKeys: String, CodingKey { // swiftlint:disable:this nesting
             case date = "DateTime"
             case transaction = "Transaction"
